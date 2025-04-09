@@ -124,7 +124,7 @@ span img{
 .email input:click{
     border: 2px solid white;
 }
-.devider{
+.divider{
     margin: auto;
     position: absolute;
     top: 90%;
@@ -372,19 +372,19 @@ i{
 .QNA:hover{
     cursor: pointer;
     background-color: #3d3d3d;
-    /* height: 35vh; */
+    height: 35vh;
 }
 .QNA:hover .Question{
     text-decoration: underline;
-    /* top: 10%; */
+    top: 10%;
 }
 
 .QNA:hover i{
     transform: rotate(45deg);
 }
-/* .QNA:hover p{
+.QNA:hover p{
     visibility: visible;
-} */
+}
  @media screen and (max-width:780px){
     .second-main .faq{
         top: 42%;
